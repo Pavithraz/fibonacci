@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>fibonacci series</title>
+</head>
+
+<body>
+<center><button type="button" onclick="myfunction()">FIBONACCI SERIES </button></center>
+
+    <script type="text/javascript"> 
+	function myfunction()
+	{
+   var a=0,b=1,c=0;
+   document.write("fibonacci series are <br/>");
+   var n=prompt("n=","");
+   if(n==1) document.write(a);
+   else document.write(a+"<br/>");
+   for(var i=2;i<=n;i++)
+   {
+   document.write(c);
+   
+   document.write("<br/>");
+   c=a+b;
+   a=b;
+   b=c;
+   }
+   }
+    </script>
+</body>
+
+</html>
